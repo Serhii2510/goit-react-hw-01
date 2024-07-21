@@ -1,0 +1,24 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border: 2px solid #242424;
+  border-radius: 8px;
+}
+
+.img {
+  margin-bottom: 8px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.status {
+  color: #ff0000;
+}
+
+.status.online {
+  color: #008000;
+}

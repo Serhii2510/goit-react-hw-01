@@ -1,0 +1,31 @@
+.table {
+  min-width: 600px;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.heading {
+  width: calc(100% / 3);
+  border: 2px solid #000000;
+  background-color: #242424;
+  color: #fafafa;
+}
+
+.row {
+  background-color: #fafafa;
+}
+
+.row:nth-child(even) {
+  background-color: #b7b7b7;
+}
+
+.data {
+  text-align: center;
+  border: 2px solid #000000;
+}
+
+.dataType {
+  text-transform: capitalize;
+  border: 2px solid #000000;
+  padding-left: 60px;
+}

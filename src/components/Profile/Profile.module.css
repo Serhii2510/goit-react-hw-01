@@ -2,10 +2,8 @@
   display: flex;
   flex-direction: column;
   max-width: 400px;
-  margin: 32px auto;
-  border: 2px solid #242424;
-  border-radius: 12px;
-  background-color: #fafafa;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 .imageBlock {
@@ -13,11 +11,14 @@
   flex-direction: column;
   align-items: center;
   padding: 20px 0;
-  border-radius: 10px 10px 0 0;
+  border: 2px solid #242424;
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+  background-color: #fafafa;
 }
 
 .image {
-  width: 120px;
+  width: 180px;
   background-color: #242424;
   border-radius: 50%;
   margin-bottom: 12px;
@@ -36,8 +37,9 @@
 .stats {
   display: flex;
   background-color: #acacac;
+  border: 2px solid #242424;
   border-top: 2px solid #727070;
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 12px 12px;
 }
 .statsItem {
   width: calc((100% / 3));
